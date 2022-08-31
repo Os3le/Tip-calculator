@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuzzy+Bubbles:wght@700&family=Patrick+Hand&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuzzy+Bubbles:wght@700&family=Patrick+Hand&family=Roboto:wght@300&display=swap');
+p {
+    /* font-family: 'Dancing Script', cursive;
+font-family: 'Fuzzy Bubbles', cursive; */
+    font-family: 'Patrick Hand', cursive;
+    /* a */
+    font-size: larger;
+}
+
+body {
+    position: relative;
+    top: 25vh;
+}
+
+.main-container {
+    background-color: aquamarine;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    flex-direction: row;
+}
+
+.left-inner-container {
+    position: relative;
+    background-color: burlywood;
+    width: 50%;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.right-inner-container {
+    position: relative;
+    background-color: hwb(0 44% 52% / 0.247);
+    width: 50%;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#orderId {
+    margin-bottom: 30px;
+}
+
+.tip-percentage {
+    margin: 40px;
+}
+
+#order {
+    position: relative;
+    background-color: teal;
+    border-radius: 5px;
+    height: 90%;
+    top: 5%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.default-text {
+    /* background-color: green; */
+    font-family: 'Patrick Hand', cursive;
+    padding: 10px;
+}
+
+#order-list {
+    position: relative;
+    padding: 10px;
+    height: 100px;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
